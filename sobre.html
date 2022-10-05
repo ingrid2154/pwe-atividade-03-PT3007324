@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sobre - IFSP - Pirituba</title>
+  <link rel="icon" href="IMG/favicon.ico" type="image/x-icon" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+  <header>
+    <nav class="nav-1">
+      <object data="nav.html" width="100%" height="250"></object>
+    </nav> <br>
+    
+  </header>
+<body>
+  
+  <h1>Sobre:</h1>
+  <div id="text-sobre"></div>
+
+<div class="my-div" id="mydiv"></div>
+
+<script type="text/babel">
+class Sobre extends React.Component {
+  render() {
+    return <text>
+  <text >O</text><text style={{fontWeight: "bold"}}> Instituto Federal Ciência e Tecnologia de São Paulo </text>
+  <text> é uma autarquia federal de ensino.
+  <br></br>
+Fundada em 1909, como Escola de Aprendizes Artífices, é reconhecida pela sociedade paulista por sua excelência no ensino público gratuito de qualidade.
+<br></br>
+Durante sua história, recebeu, também, os nomes de Escola Técnica Federal de São Paulo e Centro Federal de Educação Tecnológica de São Paulo. Com a transformação em Instituto, em dezembro de 2008, passou a ter relevância de universidade, destacando-se pela autonomia.
+<br></br>
+Com a mudança, o Instituto Federal de São Paulo passou a destinar 50% das vagas para os cursos técnicos e, no mínimo, 20% das vagas para os cursos de licenciatura, sobretudo nas áreas de Ciências e da Matemática. Complementarmente, continuará oferecendo cursos de formação inicial e continuada, tecnologias, engenharias e pós-graduação.
+<br></br>
+Além dos cursos presenciais, o Instituto Federal de São Paulo oferece os cursos Técnicos em Administração e em Informática para Internet e, a partir de 2012, o superior de Formação de Professores na modalidade de Ensino a Distância (EaD).
+  <br></br>
+O IFSP é organizado em diversos câmpus e possui mais de 40 mil alunos matriculados nas 36 unidades distribuídas pelo estado de São Paulo.;
+<br></br>
+Localizado <text style={{fontWeight: "bold"}}> em Rua Pedro Vicente, 625 - Canindé - São Paulo - SP - Brasil - Cep: 01109-010
+
+</text>
+</text>
+  </text>
+  
+}
+    }
+
+
+
+ReactDOM.render(<Sobre />, document.getElementById('mydiv'))
+</script>
+  </footer>

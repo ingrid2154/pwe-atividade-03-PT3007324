@@ -1,0 +1,30 @@
+#titulo {
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: ##54c454
+}
+
+#grade {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #54c454;
+  width: 100%;
+}
+
+#grade td, #grade th {
+  border: 1px solid #54c454;
+  padding: 8px;
+}
+
+#grade tr:nth-child(even){background-color: #faf5f5;}
+
+#grade tr:hover {background-color: #d2d1d1;}
+
+#grade th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #54c454;
+  color: white;
+}
